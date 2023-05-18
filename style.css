@@ -1,5 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color:rgb(0, 0, 0); /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-bottom: 0 solid red; /* Параметры линии снизу */
+    transition: 0.2s; /* Время перехода */
+    
+}
+
+a:hover {
+    color:rgb(215, 53, 53); /* Цвет ссылок при наведении */
+    border-bottom-width:0px; /* Толщина линии снизу */
+   }
 .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ffffff;
+    font-family: "Roboto Consdensed", sans-serif;
+}
+.header__selection{
+    display: flex;
+    align-items: center;
+}
+.header__item{
+    padding: 16px 20px;
+    font-size: 20px;
+    margin-left:-2%;
+}
+
+.headerlogo{
+    font-weight: bold;
+}
+
+.line{
     width: 100%;
-    height: 100%;
-    background-color: red;
+    height: 1px;
+    background-color: gray;
+}
+.info{
+    margin-left: 50%;
+}
+.phone{
+    margin-top: 5px;
 }
